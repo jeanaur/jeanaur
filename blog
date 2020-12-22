@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h2{
+                text-decoration: underline;
+                text-align: center;
+                color:purple;
+            }
+            
+            section.p{
+                
+                font-family:Arial;
+                font-size: 1.5em;
+            }
+            
+            p{
+                
+                font-family: sans-serif;
+                text-align: center;
+            }
+            
+            img{
+                
+                margin: 10px 215px 0px;
+            }
+            cite{
+                
+                font-family:helvetica;
+                font-size: 1em;
+                font-style: normal;
+                font-weight:bold;
+            }
+            
+            br{
+                line-height: 2.5em;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>My blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#Joconde"> La Joconde</a></li>
+            <li><a href="#Citations"> Citations heureuses</a></li>
+        </ul>
+        <section>
+            <h2 id="Joconde"> La Joconde</h2>
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt=" La Joconde" width="130" height="200">
+               <p> Voici la Joconde, elle a été faites par Léonard                 de Vinci vers 1503.<br>Elle se trouve au                           Musée du Louvres.
+               </p>
+        </section>
+        <section>
+            <h2 id="Citations">Les Citations heureuses</h2>
+            <cite> Souris à la vie, et la vie te sourira en retour.             <br></cite>
+            
+            <cite> Chaque obstacle que tu devras affronter dans la             vie, sois fièr d'en avoir surmonter.<br></cite>
+            
+            <cite> Si tu tombes, relève toi avec la tête haute,                pour leur montrer qu'il te faudra plus que ça pour                 enlever ton sourire des lèvres.</cite>
+        </section>
+    </body>
+</html>
